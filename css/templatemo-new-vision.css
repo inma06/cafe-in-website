@@ -85,16 +85,16 @@ p {
 .tm-site-name {
     display: inline-block;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 1.1rem;
     color: #999;
 }
 
 .tm-main-bg {
-    background-image: url(../img/new-vision-01.jpg);
-    background-repeat: no-repeat;
+    background-image: url(../img/outside-main.jpg);
+    /* background-repeat: no-repeat; */
     background-position: 45% top;
-    height: 800px;
-    min-height: 500px;
+    height: 200px;
+    min-height: 200px;
     margin-left: -40px;
     margin-right: -40px;
 }
