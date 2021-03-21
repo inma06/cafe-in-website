@@ -63,7 +63,7 @@ https://templatemo.com/tm-542-new-vision
 	* 약도의 수 만큼 소스를 새로 생성, 삽입해야 합니다.
 -->
         <!-- 1. 약도 노드 -->
-        <div id="daumRoughmapContainer1616332783427" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+        <div id="daumRoughmapContainer1616332880602" class="root_daum_roughmap root_daum_roughmap_landing"></div>
 
         <!-- 2. 설치 스크립트 -->
         <script charset="UTF-8" class="daum_roughmap_loader_script"
@@ -72,70 +72,38 @@ https://templatemo.com/tm-542-new-vision
         <!-- 3. 실행 스크립트 -->
         <script charset="UTF-8">
           new daum.roughmap.Lander({
-            "timestamp": "1616332783427",
-            "key": "24xit",
+            "timestamp": "1616332880602",
+            "key": "24xiw",
             "mapWidth": "360",
             "mapHeight": "240"
           }).render();
         </script>
 
+        <!-- 댓글기능  -->
+        <div id="disqus_thread"></div>
+        <script>
+          /**
+           *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+           *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+          /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+          (function () {
+            // DON'T EDIT BELOW THIS LINE
+            var d = document,
+              s = d.createElement("script");
+            s.src = "https://dev-atanasio.disqus.com/embed.js";
+            s.setAttribute("data-timestamp", +new Date());
+            (d.head || d.body).appendChild(s);
+          })();
+        </script>
+        <noscript>Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <!-- 댓글기능 끝 -->
 
-
-
-        <!-- <article class="col-lg-6 tm-media" style="margin-left: auto; margin-right: auto;">
-          <div
-            style="font: 12px AppleSDGothicNeo-Regular, dotum, sans-serif; letter-spacing: -1px; width: 340px; margin-left: auto; margin-right: auto; height: 441px; color: rgb(51, 51, 51); position: relative;">
-            <div style="height: 240px;"><a
-                href="https://map.kakao.com/?urlX=711654&amp;urlY=1067037&amp;itemId=568912206&amp;q=%EC%B9%B4%ED%8E%98IN&amp;srcid=568912206&amp;map_type=TYPE_MAP&amp;from=roughmap"
-                target="_blank"><img class="map"
-                  src="//t1.daumcdn.net/roughmap/imgmap/49596de064b74c5456c2e8cc2064064f6191b183e9c7ef5a92c3acbe05bb720c"
-                  width="358" height="238" style="border: 1px solid rgb(204, 204, 204);"></a></div>
-            <div
-              style="overflow: hidden; padding: 7px 11px; border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 0px 0px 2px 2px; background-color: rgb(249, 249, 249);">
-              <a href="https://map.kakao.com" target="_blank" style="float: left;"><img
-                  src="//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/logo_kakaomap.png" width="72" height="16"
-                  alt="카카오맵" style="display:block;width:72px;height:16px"></a>
-              <div style="float: right; position: relative; top: 1px; font-size: 11px;"><a target="_blank"
-                  href="https://map.kakao.com/?from=roughmap&amp;srcid=568912206&amp;confirmid=568912206&amp;q=%EC%B9%B4%ED%8E%98IN&amp;rv=on"
-                  style="float:left;height:15px;padding-top:1px;line-height:15px;color:#000;text-decoration: none;">로드뷰</a><span
-                  style="width: 1px;padding: 0;margin: 0 8px 0 9px;height: 11px;vertical-align: top;position: relative;top: 2px;border-left: 1px solid #d0d0d0;float: left;"></span><a
-                  target="_blank"
-                  href="https://map.kakao.com/?from=roughmap&amp;eName=%EC%B9%B4%ED%8E%98IN&amp;eX=711654&amp;eY=1067037"
-                  style="float:left;height:15px;padding-top:1px;line-height:15px;color:#000;text-decoration: none;">길찾기</a><span
-                  style="width: 1px;padding: 0;margin: 0 8px 0 9px;height: 11px;vertical-align: top;position: relative;top: 2px;border-left: 1px solid #d0d0d0;float: left;"></span><a
-                  target="_blank"
-                  href="https://map.kakao.com?map_type=TYPE_MAP&amp;from=roughmap&amp;srcid=568912206&amp;itemId=568912206&amp;q=%EC%B9%B4%ED%8E%98IN&amp;urlX=711654&amp;urlY=1067037"
-                  style="float:left;height:15px;padding-top:1px;line-height:15px;color:#000;text-decoration: none;">지도
-                  크게 보기</a></div>
-            </div>
-            <div><span
-                style="border-bottom:1px solid rgb(242, 242, 242);position:absolute;left:30px;top:282px;width:320px;height:86px"></span>
-            </div>
-            <div><br style="display: none;"><span
-                style="color:rgb(34, 34, 34);font-weight:700;display:block;float:left;position:absolute;left:30px;top:302px;width:78px">주소</span><span
-                style="color:rgb(34, 34, 34);display:block;overflow:hidden;position:absolute;left:108px;top:302px;width:242px">강원
-                원주시 치악로1735번길 10 </span><span
-                style="color:rgb(34, 34, 34);font-weight:700;display:block;float:left;position:absolute;left:30px;top:329.77777099609375px;width:78px">전화</span><span
-                style="color:rgb(34, 34, 34);display:block;overflow:hidden;position:absolute;left:108px;top:329.77777099609375px;width:242px">033-762-0948</span>
-            </div>
-            <div><span
-                style="border-bottom:0px none rgb(51, 51, 51);position:absolute;left:30px;top:368.5555725097656px;width:320px;height:83px"></span><span
-                style="position:absolute;left:30px;top:413.4444580078125px"><img
-                  src="//t1.daumcdn.net/localimg/localimages/07/2018/pc/map/marker_bus01.png" width="18"
-                  height="18"></span><a href="https://map.kakao.com/?from=roughmap&amp;busStopId=BS273116"
-                target="_blank"
-                style="text-decoration: none;color: #333;position:absolute;left:54px;top:413.4444580078125px;width:60px;height:16px">원주중학교</a><span
-                style="position:absolute;left:130px;top:413.4444580078125px"><img
-                  src="//t1.daumcdn.net/localimg/localimages/07/2018/pc/map/marker_bus02.png" width="18"
-                  height="18"></span><a href="https://map.kakao.com/?from=roughmap&amp;busStopId=BS273159"
-                target="_blank"
-                style="text-decoration: none;color: #333;position:absolute;left:154px;top:413.4444580078125px;width:60px;height:16px">원주중학교</a>
-            </div>
-            <div><br style="display: none;"><span
-                style="font-weight:700;position:absolute;left:30px;top:388.5555725097656px">주변 정류장</span></div>
-          </div>
-        </article>
-      </div> -->
 
 
         <footer>
