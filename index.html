@@ -27,36 +27,62 @@ https://templatemo.com/tm-542-new-vision
 <body>
   <!-- Page Header -->
   <div class="container-fluid">
-    
+
     <!-- Main -->
     <main>
       <!-- Welcome section -->
-      
-      <div style="margin-left: auto; margin-right: auto;">      
+
+      <div style="margin-left: auto; margin-right: auto;">
         <h4 style="text-align: center;"><br><br> 착한 사람들이 만드는<br>착한 가격의 커피 </h4>
       </div>
-      
+
       <div class="row tm-welcome-row" style="margin-left: auto; margin-right: auto;">
-        
+
         <article class="col-lg-6 tm-media">
-          <img src="img/outside-main.png" alt="외부사진" class="img-fluid tm-media-img"/>
-         
+          <img src="img/outside-main.png" alt="외부사진" class="img-fluid tm-media-img" />
+
         </article>
 
         <article class="col-lg-6 tm-media">
           <img src="img/inside-1.png" alt="내부사진 1" class="img-fluid tm-media-img" />
-          
+
         </article>
 
 
         <article class="col-lg-6 tm-media">
           <img src="img/insdie-2.png" alt="내부사진 2" class="img-fluid tm-media-img" />
-         
+
         </article>
 
 
         <!-- 지도 -->
-        <article class="col-lg-6 tm-media" style="margin-left: auto; margin-right: auto;">
+
+        <!--
+	* 카카오맵 - 약도서비스
+	* 한 페이지 내에 약도를 2개 이상 넣을 경우에는
+	* 약도의 수 만큼 소스를 새로 생성, 삽입해야 합니다.
+-->
+        <!-- 1. 약도 노드 -->
+        <div id="daumRoughmapContainer1616332783427" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+
+        <!-- 2. 설치 스크립트 -->
+        <script charset="UTF-8" class="daum_roughmap_loader_script"
+          src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+        <!-- 3. 실행 스크립트 -->
+        <script charset="UTF-8">
+          new daum.roughmap.Lander({
+            "timestamp": "1616332783427",
+            "key": "24xit",
+            "mapWidth": "360",
+            "mapHeight": "240"
+          }).render();
+        </script>
+
+
+
+
+        <!-- <article class="col-lg-6 tm-media" style="margin-left: auto; margin-right: auto;">
           <div
             style="font: 12px AppleSDGothicNeo-Regular, dotum, sans-serif; letter-spacing: -1px; width: 340px; margin-left: auto; margin-right: auto; height: 441px; color: rgb(51, 51, 51); position: relative;">
             <div style="height: 240px;"><a
@@ -109,12 +135,12 @@ https://templatemo.com/tm-542-new-vision
                 style="font-weight:700;position:absolute;left:30px;top:388.5555725097656px">주변 정류장</span></div>
           </div>
         </article>
-      </div>
+      </div> -->
 
 
-      <footer>
-        <!-- Copyright &copy; 2020 New Vision - Design: <a href="https://templatemo.com">TemplateMo</a> -->
-      </footer>
+        <footer>
+          <!-- Copyright &copy; 2020 New Vision - Design: <a href="https://templatemo.com">TemplateMo</a> -->
+        </footer>
 
     </main>
   </div>
